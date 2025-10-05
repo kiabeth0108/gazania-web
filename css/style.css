@@ -1,0 +1,130 @@
+
+*{ margin: 0;
+padding: 0;}
+.header{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid red;
+}
+.menu{
+    margin-left: 550px;
+}
+.logo{
+    margin-left: 36px;
+    margin-top: 5px;
+}
+.navegador{
+    background-color: #F9EFED;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+    align-items: center
+}
+.menulista{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 16px;
+}
+.listaiconos{
+    display: flex;
+    list-style: none;
+}
+
+.home1{
+    background-color: #F9EFED;
+    margin: 0%;
+    padding: 15px;
+    border: 1px solid blue;
+    padding-top: 39px
+}
+.slyder{
+    border: 2px solid purple;
+    height: 700px;
+    background-color: #BD6F51;
+}
+.redes{
+    padding: 0px;
+}
+.listaredes1{
+    list-style: none;
+    display: flex;
+    transform: rotate(90deg);
+    padding-top: 350px;
+    gap: 1rem;
+}
+.seccion2{
+    border: 2px solid green;
+    height: 800px;
+    background-color: #ffff;
+
+}
+.seccion3{
+    border: 2px solid rgb(187, 15, 115);
+    height: 300px;
+    background-color: #9fa129;
+
+}
+.seccion4{
+    border: 2px solid rgb(0, 230, 31);
+    height: 650px;
+    background-color: #1f4daf;
+
+}
+.seccion5tienda{
+    border: 2px solid rgb(0, 0, 0);
+    height: 550px;
+    background-color: #1faf5b;
+
+}
+.inicio-bloque1{
+    background-color: #F9EFED;
+    display: flex;
+}
+.iconosxs{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+h2{
+    color: #BD6F51;
+
+
+}
+a{
+    text-decoration: none;
+
+}
+.menulista a {
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    
+}
+
+.user{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.bloque2parrafos{
+    display: flex;
+}
+.boton1{
+    border-radius: 0 50px 0 50px;
+    background-color: #BD6F51;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 1rem 2 rem;
+    border: none;
+
+}
