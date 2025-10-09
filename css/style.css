@@ -71,7 +71,7 @@ padding: 0;}
     background-color: #BD6F51;
     padding: 7px 15px 5px;
     border-radius: 0 10px 0 10px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .textologo{
     margin-left: 20px;
@@ -86,7 +86,7 @@ padding: 0;}
     width: 24%;
     height: 650px;
     color:#888585;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 .parrafo2{
@@ -108,29 +108,90 @@ padding: 0;}
     display: inline-block;
     vertical-align: top;
 }
-
 img {
     max-width: 100%;
 }
 
 .seccion3{
     border: 2px solid rgb(187, 15, 115);
-    height: 300px;
-    background-color: #9fa129;
+    height: 250px;
+    background-color: #FFFFFF;
 
+}
+.logo2{
+     border: 2px solid rgb(235, 250, 25);
+     height: 180px;
+     width: 180px;
+}
+.textoseccion3{
+     border: 2px solid rgb(1, 20, 83);
+     height: 120px;
+     width: 200px;
+}
+.imgsecc3{
+    margin-left: 90px;
+}
+.alineaciontexto3{
+    display: inline-block;
+    vertical-align: top;
+    padding: 78px 10px 10px 10px;
+}
+.alineacionimg3{
+    padding-top: 35px;
 }
 .seccion4{
     border: 2px solid rgb(0, 230, 31);
     height: 650px;
-    background-color: #1f4daf;
-
+    background-color: #FFFFFF;
+    position: relative;
 }
+.container4{
+    border: 2px solid rgb(128, 0, 122);
+    width: 670px;
+    height: 470px;
+    background-color: #F9EFED ;
+    margin-top: 90px;
+    margin-right: 90px;
+    position: absolute; /* Permite posicionar el elemento libremente dentro de su contenedor relativo */
+    top: 1%;
+    right: 2%;
+}
+.img4{
+    margin-top: 140px;
+    margin-left: 120px;
+    position: relative;
+}
+.titulocontainer{
+    border: 2px solid rgb(230, 0, 50);
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.divcontainer{
+    border: 2px solid rgb(0, 0, 0);
+    width: 333px;
+    height: 160px;
+}
+.flex{
+    display: flex;
+}
+.imgcontainers{
+   width: 60px;
+   height: 60px;
+   padding: 60px 10px 20px 10px;
+}
+.txtcontainers{
+    padding: 40px 40px;
+}
+
+
+
 .seccion5tienda{
     border: 2px solid rgb(0, 0, 0);
     height: 550px;
     background-color: #1faf5b;
-
 }
+
+
 
 .iconosxs{
     list-style: none;
@@ -154,15 +215,32 @@ a{
     vertical-align: middle;
 }
 h2{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: normal;
+}
+h3{
+    font-size: 45px;
+}
+h5{
+    font-size: 16px;
+}
+.gris{
+    color:#888585 ;
+}
+.negrolight{
+    color: #222222;
 }
 
 .playfair-display{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+.playfair-display-bold{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
   font-style: normal;
 }
 .quattrocento-regular {
