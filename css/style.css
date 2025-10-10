@@ -82,20 +82,24 @@ padding: 0;}
     padding: 0px 20px;
 }
 .parrafo1{
-    border: 2px solid green;
-    width: 24%;
+    /* border: 2px solid green; */
+    width: 22%;
     height: 650px;
     color:#888585;
     margin-left: 80px;
     margin-top: 50px;
+    text-align: left;
+    line-height: 24px;
 }
 .parrafo2{
-    border: 2px solid green;
-    width: 24%;
+    /* border: 2px solid green; */
+    width: 22%;
     height: 650px;
     color:#888585;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 18px;
+    text-align: left;
+    line-height: 24px;
 }
 .imagen2seccion{
     border: 2px solid green;
