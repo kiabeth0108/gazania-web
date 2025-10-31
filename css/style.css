@@ -133,10 +133,8 @@ padding: 0;
 .imagen2seccion{
     /* border: 4px solid green; */
     width: 40%;
-    
     margin-top: 70px;
     margin-left: 10px;
-    
     position: relative;
     z-index: 2;
 }
