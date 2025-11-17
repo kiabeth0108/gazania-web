@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 *{ margin: 0;
 padding: 0;
 }
 .header{
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .menu{
     margin-left: 450px;
@@ -30,7 +32,7 @@ padding: 0;
     background-color: #F9F6EF;
     margin: 0%;
     padding: 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding-top: 39px;
 }
 /* .redes{
@@ -49,7 +51,7 @@ padding: 0;
     height: 650px;
 }
 .movil-puntos{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 150px;
     height: 650px;
 }
@@ -75,7 +77,7 @@ padding: 0;
     font-size: 15px;
 }
 .img1{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 48%;
     height:650px;
     object-fit: cover;
@@ -89,7 +91,7 @@ padding: 0;
 }
 .subtitulo{
     /* display: flex; */
-    border: 0px solid #080505 ;
+    /* border: 0px solid #080505 ; */
     padding: 20px;
 }
 .alineacionsubtitulo{
@@ -140,26 +142,26 @@ padding: 0;
 }
 .imagen-superpuesta2{
   /* border: 2px solid fuchsia; */
-  position: relative;
+    position: relative;
   z-index: 2; /* para colocarla sobre las líneas */
-  clip-path:inset( 0 0 0 0);
-  height: 635px;
+    clip-path:inset( 0 0 0 0);
+    height: 635px;
 }
 .linea1-1, .linea2-2 {
      /* border: 2px solid fuchsia; */
-  background-color: #4B5A47;
-  width: 350px;
-  height: 80px;
-  position: absolute;
+    background-color: #4B5A47;
+    width: 350px;
+    height: 80px;
+    position: absolute;
   z-index: 1; /* para colocarlo detrás de la imagen */
 }
 .linea1-1 {
-  bottom: 590px;
-  left: 200px;
+    bottom: 590px;
+    left: 200px;
 }
 .linea2-2 {
-  top: 590px;
-  right: 200px;
+    top: 590px;
+    right: 200px;
 }
 .alineaciontexto2{
     display: inline-block;
@@ -177,13 +179,13 @@ img {
 }
 .logo2{
      /* border: 2px solid rgb(235, 250, 25); */
-     height: 180px;
-     width: 180px;
+    height: 180px;
+    width: 180px;
 }
 .textoseccion3{
      /* border: 2px solid rgb(1, 20, 83); */
-     height: 120px;
-     width: 200px;
+    height: 120px;
+    width: 200px;
 
 }
 .imgsecc3{
@@ -210,14 +212,14 @@ img {
     width: 670px;
     height: 470px;
     background-color: #4B5A47;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-right: 90px;
     position: absolute; /* Permite posicionar el elemento libremente dentro de su contenedor relativo */
     top: 1%;
     right: 2%;
 }
 .img4{
-    margin-top: 117px;
+    margin-top: 66px;
     margin-left: 120px;
     position: relative;
     object-fit: cover
@@ -255,9 +257,9 @@ img {
 }
 
 .imgcontainers{
-   width: 45px;
-   height: 45px;
-   padding: 20px 20px 20px 23px;
+    width: 45px;
+    height: 45px;
+    padding: 20px 20px 20px 23px;
 }
 
 .seccion5tienda{
@@ -270,7 +272,7 @@ img {
     margin: 40px 20PX 30PX 140PX;
 }
 .items-tienda{
-    border: 2px solid rgb(202, 8, 170);
+    /* border: 2px solid rgb(202, 8, 170); Falta detallar el tamaño de las imagenes */
     height: 380px;
     width: 340px;
     margin: 10px;
@@ -311,32 +313,32 @@ img {
     position: relative;
 }
 
- .linea1,
+.linea1,
 .linea2 {
   /* border: 2px solid fuchsia; */
-  background-color: #4B5A47;
-  width: 300px;
-  height: 80px;
-  position: absolute;
-  z-index: 1; /* para colocarlo detrás de la imagen */
+    background-color: #4B5A47;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    z-index: 1; /* para colocarlo detrás de la imagen */
 }
 .linea1 {
-  bottom: 380px;
-  left: 150px;
+    bottom: 380px;
+    left: 150px;
 }
 .linea2 {
-  top: 370px;
-  right: 190px;
+    top: 370px;
+    right: 190px;
 }
 
- .imgsuperpuesta {
+.imgsuperpuesta {
   /* border: 2px solid fuchsia; */
-  width: 350px;
-  height: 360px;
-  position: relative;
+    width: 350px;
+    height: 360px;
+    position: relative;
   z-index: 2; /* para colocarla sobre las líneas */
-  margin: 60px 0 0 70px;
-  clip-path:inset( 0 0 0 0);
+    margin: 60px 0 0 70px;
+    clip-path:inset( 0 0 0 0);
 }
 .seccion7{
     /* border: 2px solid rgb(0, 0, 0); */
@@ -379,17 +381,17 @@ margin: 10px 0;
     background-color: #4B5A47;
     margin: 50px 20%;
     position: absolute;
-  z-index: 1;
-  display: inline-flex;
+    z-index: 1;
+    display: inline-flex;
 }
 
 .imgsuperpuesta-secc8 {
   /* border: 2px solid fuchsia; */
-  position: relative;
+    position: relative;
   z-index: 2; /* para colocarla sobre la caja */
-  margin: 85px 0 0 60px;
-  right: 120px;
-  width: 120px;
+    margin: 85px 0 0 60px;
+    right: 120px;
+    width: 120px;
 }
 .p-secc-8{
     /* border: 2px solid slateblue; */
@@ -432,7 +434,7 @@ footer p{
     margin-top: 19px;
 }
 .secciones-footer{
-     width: 19%;
+    width: 19%;
     height: 240px;
     /* border: 2px solid red; */
 display: inline-block;
@@ -490,46 +492,194 @@ h6{
 }
 
 .playfair-display{
-  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .playfair-display-bold{
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 .quattrocento-regular {
-  font-family: "Quattrocento", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .quattrocento-bold {
-  font-family: "Quattrocento", serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Quattrocento", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 input[type="email"] {
-  width: 180px;
-  padding: 6px;
-  border: 2px solid #F9F6EF;
-  border-radius: 0 20px 0 20px;;
-  font-size: 16px;
+    width: 180px;
+    padding: 6px;
+    border: 2px solid #F9F6EF;
+    border-radius: 0 20px 0 20px;;
+    font-size: 16px;
 }
 
 button {
-  background-color: #4B5A47;
-  color: #F9F6EF;
-  border: 2px solid #F9F6EF;
-  padding: 10px 15px;
-  border-radius: 0 20px 0 20px;;
-  cursor: pointer;
+    background-color: #4B5A47;
+    color: #F9F6EF;
+    border: 2px solid #F9F6EF;
+    padding: 10px 15px;
+    border-radius: 0 20px 0 20px;;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #6d7c69;
+    background-color: #6d7c69;
+}
+/* --------------------
+    CARRUSEL BASE (SIN BOOTSTRAP)
+--------------------- */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+}
+
+/* --------------------
+    CAPTIONS
+--------------------- */
+
+.carousel-caption {
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    text-align: left;
+    max-width: 100%;
+    padding: 15px;
+    /* border:2px solid #080505; */
+    
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Playfair Display', serif;
+    width: 400px;
+    text-align: left;
+    
+}
+.carousel-caption h3 {
+    font-size: 40px;
+    color: #4B5A47;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+
+}
+/* --------------------
+    TEXTO CON FONDO DE IMAGEN
+--------------------- */
+
+.texto-flores {
+    display: inline-block; /* necesario para background-clip */
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+    line-height: 1;
+
+    font-weight: 500;
+    background-image: url("../Assets/img/GF/Disenosmixtos/ALAIA.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+/* --------------------
+    CONTROLES DEL CARRUSEL
+--------------------- */
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .35;
+    cursor: pointer;
+    border: none;
+    background: none;
+    z-index: 10;
+    transition: opacity .2s;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: .2;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3e%3cpath d='M11 1 3 8l8 7'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3e%3cpath d='M5 1l8 7-8 7'/%3e%3c/svg%3e");
+}
+
+/* --------------------
+    SWIPE (DESLIZAR CON EL DEDO)
+--------------------- */
+
+.carousel {
+    touch-action: pan-y;
 }

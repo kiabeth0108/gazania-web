@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+*{ margin: 0;
+padding: 0;
+}
+.header{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid red;
+}
+.menu{
+    margin-left: 450px;
+    font-family: sans-serif;
+    color: #222222;
+}
+.logo{
+    margin-left: 36px;
+    margin-top: 5px;
+}
+.menulista{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 16px;
+}
+.listaiconos{
+    display: flex;
+    list-style: none;
+}
+.home1{
+    background-color: #F9F6EF;
+    margin: 0%;
+    padding: 15px;
+    border: 1px solid blue;
+    padding-top: 39px;
+}
+
+h1{
+    font-size: 100px ;
+}
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 45px;
+}
+h4{
+    font-size: 35px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
+}
+.gris{
+    color:#888585 ;
+}
+.negrolight{
+    color: #222222;
+}
+.verde-greenflor{
+    color: #4B5A47;
+}
+.beige{
+    color: #F9F6EF;
+}
+.playfair-display{
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.playfair-display-bold{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.quattrocento-regular {
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quattrocento-bold {
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.texto-flores {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+
+    /* Ruta corregida, sin espacios */
+    background-image: url("../Assets/img/GF/Disenosmixtos/ALAIA.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* Hace visible la imagen dentro de las letras */
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
