@@ -9,7 +9,7 @@ padding: 0;
     /* border: 1px solid red; */
 }
 .menu{
-    margin-left: 450px;
+    margin-left: 420px;
     font-family: sans-serif;
     color: #222222;
 }
@@ -55,18 +55,18 @@ padding: 0;
     width: 150px;
     height: 650px;
 }
-.titulo-slyder{
-    margin-top: 40px;
+.user{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
-.box-slyder{
-    width: 40%;
-    height: 650px;
+.user img{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+
 }
-.parrafo-secc1{
-    text-align:left;
-    line-height: 24px;
-    padding: 15px 100px 15px 10px ;
-}
+
 .boton-secc1{
     margin: 50px 0;
     padding: 18px 25px;
@@ -264,7 +264,7 @@ img {
 
 .seccion5tienda{
     /* border: 2px solid rgb(0, 0, 0); */
-    height: 650px;
+    height: 550px;
     text-align: center;
     background-color: #F9F6EF;
 }
@@ -682,4 +682,44 @@ button:hover {
 
 .carousel {
     touch-action: pan-y;
+}
+
+/* SECCION SLIDER LO MAS VENDIDO */
+.seccion5tienda {
+    padding: 2rem 1rem;
+}
+.swiper-wrapper{
+    margin-top: 35px;
+}
+
+.swiper {
+    padding: 1rem 0;
+}
+
+.swiper-slide {
+    text-align: center;
+  background: none;   /* quitar fondo blanco */
+    border-radius: 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  border-radius: 0px; /* opcional, si quieres esquinas redondeadas */
+}
+
+.swiper-slide h3 {
+    margin: 0.5rem 0 0;
+    font-size: 30px;
+}
+
+.swiper-slide p {
+    margin: 0.25rem 0 1rem;
+    font-size: 1rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #4B5A47;
 }
