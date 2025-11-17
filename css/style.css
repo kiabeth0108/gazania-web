@@ -344,7 +344,7 @@ img {
     /* border: 2px solid rgb(0, 0, 0); */
     height: 300px;
     background-color: #F9F6EF;
-    padding: 100px;
+    padding: 50px 90px 70px 90px;
 
 }
 .parte2-seccion7{
@@ -581,28 +581,55 @@ button:hover {
 
 .carousel-caption {
     position: absolute;
-    bottom: 8%;
-    left: 8%;
+    bottom: 1%;
+    left: 7%;
     text-align: left;
     max-width: 100%;
     padding: 15px;
     /* border:2px solid #080505; */
     
 }
+.carousel-caption-redes {
+    position: absolute;
+    top: 50%;
+    left: 81.5%;
+    text-align: left;
+    max-width: 100%;
+    padding: 15px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    transform: rotate(90deg);
+    /* border:2px solid #080505; */
+    font-size: 16px;
+    
+    
+}
+.carousel-caption-li{
+text-decoration: none;
+color: #222222;
+padding-left: 35px;
+}
+
 
 .carousel-caption p {
     font-size: 15px;
-    color: #222222;
+    color: #312e2e;
     font-family: 'Playfair Display', serif;
     width: 400px;
     text-align: left;
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    padding-top: 25px;
     
 }
 .carousel-caption h3 {
-    font-size: 40px;
+    font-size: 50px;
     color: #4B5A47;
     font-family: 'Playfair Display', serif;
-    font-weight: 500;
+    font-weight: 300;
 
 }
 /* --------------------
@@ -618,7 +645,7 @@ button:hover {
     font-weight: 500;
     background-image: url("../Assets/img/GF/Disenosmixtos/ALAIA.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 47%;
 
     color: transparent;
     -webkit-text-fill-color: transparent;
@@ -722,4 +749,8 @@ button:hover {
 .swiper-button-next,
 .swiper-button-prev {
     color: #4B5A47;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
