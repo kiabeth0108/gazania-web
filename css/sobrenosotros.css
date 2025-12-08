@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 *{ margin: 0;
 padding: 0;
+background-color: #F9F6EF;
+}
+/* MENU */
+a{
+    text-decoration: none;
+}
+.menulista a {
+    text-decoration: none;
+    color: rgb(49, 47, 47);
 }
 .header{
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .menu{
-    margin-left: 450px;
+    margin-left: 420px;
     font-family: sans-serif;
     color: #222222;
 }
@@ -34,7 +43,19 @@ padding: 0;
     border: 1px solid blue;
     padding-top: 39px;
 }
+.user{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.user img{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+/* SOBRE NOSOTROS */
 
+/* GENERAL */
 h1{
     font-size: 100px ;
 }
@@ -88,21 +109,4 @@ h6{
   font-family: "Quattrocento", serif;
   font-weight: 700;
   font-style: normal;
-}
-.texto-flores {
-    font-size: 90px;
-    font-weight: 900;
-    line-height: 1;
-    font-family: 'Playfair Display', serif;
-
-    /* Ruta corregida, sin espacios */
-    background-image: url("../Assets/img/GF/Disenosmixtos/ALAIA.jpg");
-    background-size: cover;
-    background-position: center;
-
-    /* Hace visible la imagen dentro de las letras */
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
 }
